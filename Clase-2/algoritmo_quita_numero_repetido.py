@@ -8,12 +8,13 @@ print(numeros_sin_repetir)
 #   a = set(n)
 #   return list(a)
 
-
+c = 0
 for i, x in enumerate(numeros_sin_repetir):
   for j in lista_numeros:
-    k = x == j
+    x == j
     if x == j:
-      print(k)
+      
+      print(c)
 # comparar lista de números sin repetir con lista con números repetidos
 # x valor en cada indice
 # j valor de cada indice en la lista de números con valores repetidos

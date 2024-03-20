@@ -1,0 +1,5 @@
+un conjunto de ip conforma una red
+
+ipconfig   en la consola cmd para obtener mis direcciones ip
+
+En caso de hacer un sitio estático en Internet
