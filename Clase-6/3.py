@@ -1,1 +1,0 @@
-#assert number_spiral(2, 2) == 3, "Error en el caso de prueba"
