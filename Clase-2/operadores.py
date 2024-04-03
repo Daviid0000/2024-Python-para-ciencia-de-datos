@@ -3,6 +3,7 @@
 # +
 # -
 # /
+# // devuelve la división entera
 # *
 # **
 # %
