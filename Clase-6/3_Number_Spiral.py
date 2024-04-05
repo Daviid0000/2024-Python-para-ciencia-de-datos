@@ -15,5 +15,5 @@ def number_spiral(x,y):
     return valor_en_coordenadas
 
 # Verifico si la función me da los resultados que quiero dependiendo del valor que le estoy pasando a través de su parámetro
-assert number_spiral(2, 2) == 3, "Error en el caso de prueba"
+assert number_spiral(4, 1) == 3, "Error en el caso de prueba"
 print("Ha pasado todas las prubeas")

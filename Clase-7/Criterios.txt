@@ -1,0 +1,17 @@
+Los ejemplos del pdf son usos en el archivo csv que nos proporcionaron.
+
+BD: Utilizar MariaDB de XAMPP, lo mismo que MySQL
+
+Leer el csv guardar en una tabla y subir a la bd.
+Agruoar los datos.
+Crear un archivo csv por provincias.
+
+En el código podríamos al momento de leer el archivo csv podemos decir con que demilitará las columnas, 
+si quiero exportar en excel es con ; depende de como se trabaja en el excel cambia
+
+
+
+
+extensión para pegar código
+
+Code Blocks
