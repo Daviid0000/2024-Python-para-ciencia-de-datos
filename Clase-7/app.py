@@ -30,6 +30,7 @@ def importar_datos_desde_csv(cursor, archivo_csv):
             print("Error al importar los datos:", e)
             db.rollback()
 
+# Función para agrupar localidades por provincia
 def agrupar_localidades_por_provincia(cursor):
     localidades_por_provincia = {}
     cursor.execute("SELECT provincia, localidad FROM datos")
@@ -40,6 +41,7 @@ def agrupar_localidades_por_provincia(cursor):
             localidades_por_provincia[provincia] = [localidad]
     return localidades_por_provincia
 
+# Función para exportar localidades por provincia
 def exportar_a_csv(localidades_por_provincia):
     for provincia, localidades in localidades_por_provincia.items():
         nombre_archivo = f"{provincia}_localidades.csv"
@@ -49,6 +51,7 @@ def exportar_a_csv(localidades_por_provincia):
             escritor_csv.writerows([[localidad] for localidad in localidades])
         print(f"Archivo {nombre_archivo} creado exitosamente.")
 
+# Esta función ejecuta todas las demás funciones.
 if __name__ == "__main__":
     db = conectar_bd()
     cursor = db.cursor()
