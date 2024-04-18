@@ -30,6 +30,8 @@ if y and all(isinstance (x, (int)) for x in y):
 # Muestro por consola la tabla.
     print(x.head(n=30))
 
+    return x
+
 # Ejecuto la función pasandole como parámetro la lista 'y'.
   analisis_estadistico(y)
 
