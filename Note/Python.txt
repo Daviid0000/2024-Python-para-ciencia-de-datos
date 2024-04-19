@@ -1,0 +1,84 @@
+________________________________________________________________________________________________________________________________________
+
+[IMPRIMIR RESULTADO POR CONSOLA] - [PRINT]
+
+Si queremos imprimir algo por consola es posible utilizar la función print() por ejemplo:
+
+mensaje = "Hola Mundo"
+
+print(mensaje)
+
+________________________________________________________________________________________________________________________________________
+
+
+[DEFINIR FUNCIÓN] - [DEF]
+
+Para definir una función en Python se utiliza la palabra reservada 'def' y luego el nombre de la función, por ejemplo:
+
+def mensaje()
+
+Esta función puede resivir un valor mediante un parámetro asignado. En caso de que se pase una variable como parámetro, esta variable debe inicializarse antes que la función, por ejemplo:
+
+message = "Hola Mundo"
+
+def mensaje(message)
+
+  print(f"user: {message}")
+
+mensaje(message)
+
+lo que devuelve: {
+
+  user: Hola Mundo
+
+}
+
+
+________________________________________________________________________________________________________________________________________
+
+
+[COMO USAR INPUT] - [INPUT]
+
+El input se utiliza para hacer pruebas de envío de datos por teclado. El input captura lo ingresado por teclado y es posible almacenar lo que capturó dentro de una variable, luego ese valor se puede mostrar por consola con la función print()
+
+
+valor = input("Ingrese un algo: ")
+
+
+Esto debe ser ser definido fuera de la función.
+
+
+mensaje = input("Ingrese algo:")
+
+def mensaje(mensaje):
+
+  print(f"user: {mensaje}")
+  
+mensaje(mensaje)
+
+
+________________________________________________________________________________________________________________________________________
+
+
+[INTERACIONES] - [RANGE]
+
+El range genera unos números que son especificados por el usuario hasta cierto punto, puede recibir 3 parámetros, en el primer parámetro el usuario debe especificar por cuál número inicializará, en el segundo parámetro se especifica el límite al cual no se debe llegar, y el último parámetro recibe los saltos de número que se iran haciendo hasta llegar al límite, por ejemplo: 
+
+range(1, 10, 2)
+
+Si como inicio ingreso 1, como límite ingreso 10, y como paso ingreso 2, la lista que se creará tendrá como primer valor el 1, luego se saltará el siguiente valor y mostrará el segundo valor, osea que cada un valor que se salta, muestra un valor, repetirá esto sin pasar del 10 ni llegando a ser 10.
+
+Parámetros de range:  (valorInicial, límite, paso)
+
+valores por defecto:{
+
+  inicial: 0,
+  paso: 1
+
+}
+
+
+Tengo una lista con las vocales.
+
+lista = ["a","e","i","o","u"]
+
