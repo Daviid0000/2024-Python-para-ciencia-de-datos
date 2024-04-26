@@ -1,5 +1,27 @@
 ________________________________________________________________________________________________________________________________________
 
+
+[PYTHON] 
+
+Python es un lenguaje de alto nivel de programación interpretado. Se trata de un lenguaje de programación multiparadigma ya que soporta parcialmente la orientación a objetos.
+
+Paradigma: Creencias o ideas que puede tener una persona diferente de las creencias o ideas que tenga otra, por ejemeplo: {
+
+  persona1: así he aprendido a lidiar con este problema.
+  persona2: yo ese problema lo he resuelto de otra manera más sencilla.
+  persona3: sus ideas o creencias, osea paradigmas son completamente diferentes, y depende de cómo es cada ser humano.
+
+}
+
+Paradigma de programación: principios, reglas o estandares que siguen ciertas personas que creen que eso es lo que define a ciertos temas, o que creen que es la manera correcta de hacerse tanto del lado del frontend, como del backend.
+
+Lenguaje de programación interpretado: Es aquel que no se ejecuta directamente en código máquina
+
+compilar: es el proceso de traducir el código fuente escrito en un lenguaje de programación como: C, C++, Java.
+
+________________________________________________________________________________________________________________________________________
+
+
 [IMPRIMIR RESULTADO POR CONSOLA] - [PRINT]
 
 Si queremos imprimir algo por consola es posible utilizar la función print() por ejemplo:
