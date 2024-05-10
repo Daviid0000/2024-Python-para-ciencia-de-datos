@@ -5,6 +5,8 @@ ________________________________________________________________________________
 
 Python es un lenguaje de alto nivel de programación interpretado. Se trata de un lenguaje de programación multiparadigma ya que soporta parcialmente la orientación a objetos.
 
+Los desarrolladores utilizan Python porque es eficiente y fácil de aprender, además de que se puede ejecutar en muchas plataformas diferentes.
+
 Paradigma: Creencias o ideas que puede tener una persona diferente de las creencias o ideas que tenga otra, por ejemeplo: {
 
   persona1: así he aprendido a lidiar con este problema.
@@ -18,6 +20,42 @@ Paradigma de programación: principios, reglas o estandares que siguen ciertas p
 Lenguaje de programación interpretado: Es aquel que no se ejecuta directamente en código máquina
 
 compilar: es el proceso de traducir el código fuente escrito en un lenguaje de programación como: C, C++, Java.
+
+
+________________________________________________________________________________________________________________________________________
+
+
+[ENTORNO VIRTUAL]
+
+Un entorno virtual en Python es un entorno en el que las bibliotecas y los scripts instalados en él estan aislados de los instalados en otros entornos virtuales.
+
+
+________________________________________________________________________________________________________________________________________
+
+
+[DICCIONARIO]
+
+Un diccionario en Python es una estructura de datos que permite almacenar cualquier tipo de información
+
+________________________________________________________________________________________________________________________________________
+
+
+[for en Python vs for en javascript]
+
+La sintaxis de ambos es diferente, se utilizan casi para lo mismo, principalmente se utiliza para iterar sobre elementos, el bucle for de javascript tiene más libertad porque consta de una buena sintaxis en la que se pueden expecificar varios parámemtros, valor inicial, condición y paso.
+
+En python es unicamente el nombre de la variable en la que se almacenaran los valores extraidos del elemento y el elemento.
+
+for en python:
+
+for valores in lista1:
+
+________________________________________________________________________________________________________________________________________
+
+
+[LISTA VS TUPLA EN PYTHON]
+
+Las tuplas son unicamente de escritura mientras que las listas son de lectura y escritura.
 
 ________________________________________________________________________________________________________________________________________
 
